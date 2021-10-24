@@ -3,5 +3,14 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Flotsam & Retsam",
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
+      }
+    },
+    "gatsby-plugin-mdx"
+  ],
 };
