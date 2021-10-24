@@ -1,9 +1,8 @@
-import * as React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, PageProps } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-
-const BlogPost = ({data}) => {
+type MDXData = { mdx: {body: string }};
+const BlogPost = ({data}: PageProps<MDXData>) => {
   return (
     <MDXRenderer>{data.mdx.body}</MDXRenderer>
   )
