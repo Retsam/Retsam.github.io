@@ -1,10 +1,15 @@
 import * as React from "react"
+import { Helmet } from "react-helmet";
 import "./global.css";
 import "./index.css";
 
 const IndexPage = () => {
   return (<>
     <header className="page-header">
+      <Helmet htmlAttributes={{
+          lang: 'en',
+        }}
+      />
       <title>Flotsam &amp; Retsam</title>
       <div className="wrapper">
         <a rel="author" href="/">Flotsam &amp; Retsam</a>
