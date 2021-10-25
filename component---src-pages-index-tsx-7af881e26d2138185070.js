@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkflotsam_retsam=self.webpackChunkflotsam_retsam||[]).push([[691],{2494:function(e,t,l){l.r(t);var a=l(7294),n=l(5329);t.default=function(e){var t=e.data.allMdx.nodes.map((function(e){return a.createElement("li",{key:e.id},a.createElement("h2",null,a.createElement("a",{href:"/blog/"+e.slug},e.frontmatter.title)))}));return a.createElement(n.Z,{pageTitle:"Flotsam & Retsam"},a.createElement("h1",null,"Posts"),a.createElement("ul",null,t))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-7af881e26d2138185070.js.map
