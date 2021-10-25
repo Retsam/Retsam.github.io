@@ -4,7 +4,13 @@ subtitle: "Please ignore"
 date: 2020-10-20
 ---
 
-cool
+```ts twoslash
+function assert(x: any, err: string): asserts x {
+    if (!x) throw new Error(err);
+}
 
-beans
-coolbeans
+declare const x: string | number;
+assert(typeof x === "string", "Expected a string");
+console.log(x.toUpperCase());
+//
+```
