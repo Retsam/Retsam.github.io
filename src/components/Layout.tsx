@@ -4,8 +4,9 @@ import "./Layout.css";
 
 export type LayoutProps = {
     children: React.ReactNode;
+    pageTitle: string;
 };
-const Layout = ({ children }: LayoutProps) => (
+const Layout = ({ children, pageTitle }: LayoutProps) => (
     <>
         <header className="page-header">
             <Helmet
@@ -13,7 +14,7 @@ const Layout = ({ children }: LayoutProps) => (
                     lang: "en",
                 }}
             />
-            <title>Flotsam &amp; Retsam</title>
+            <title>{pageTitle}</title>
             <div className="wrapper">
                 <a rel="author" href="/">
                     Flotsam &amp; Retsam

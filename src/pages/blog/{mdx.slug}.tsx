@@ -5,9 +5,10 @@ import Layout from "../../components/Layout";
 
 type MDXData = { mdx: { body: string; frontmatter: { title: string } } };
 const BlogPost = ({ data }: PageProps<MDXData>) => {
+    const title = data.mdx.frontmatter.title;
     return (
-        <Layout>
-            <h1>{data.mdx.frontmatter.title}</h1>
+        <Layout pageTitle={title}>
+            <h1>{title}</h1>
             <MDXRenderer>{data.mdx.body}</MDXRenderer>
         </Layout>
     );

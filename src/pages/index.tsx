@@ -4,7 +4,7 @@ import "./global.css";
 
 const IndexPage = () => {
     return (
-        <Layout>
+        <Layout pageTitle="Flotsam &amp; Retsam">
             Hello <a href="#">Test</a>
         </Layout>
     );
