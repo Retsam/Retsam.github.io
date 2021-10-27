@@ -1,0 +1,7 @@
+.article-list-title {
+    margin-bottom: 5px;
+}
+.article-list-datestamp {
+    margin-left: 30px;
+    color: var(--dark-grey-color);
+}
