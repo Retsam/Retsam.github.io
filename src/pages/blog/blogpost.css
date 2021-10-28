@@ -1,0 +1,8 @@
+.post-title {
+    color: var(--brand-color);
+}
+.post-subtitle {
+    font-family: "Times New Roman", Times, serif;
+    color: var(--brand-color);
+    font-variant: small-caps;
+}
