@@ -24,6 +24,8 @@
     "@types/react-helmet": "^6.1.4",
     "gatsby": "^4.16.0",
     "gatsby-plugin-mdx": "^3.16.1",
+    "gatsby-plugin-sharp": "^4.16.1",
+    "gatsby-remark-images": "^6.16.0",
     "gatsby-remark-shiki-twoslash": "^3.0.34",
     "gatsby-source-filesystem": "^4.16.0",
     "prettier": "^2.4.1",

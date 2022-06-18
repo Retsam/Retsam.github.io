@@ -4,6 +4,8 @@ module.exports = {
         title: "Flotsam & Retsam",
     },
     plugins: [
+        "gatsby-plugin-sharp",
+        "gatsby-remark-images",
         {
             resolve: "gatsby-source-filesystem",
             options: {
@@ -18,6 +20,12 @@ module.exports = {
                     {
                         resolve: "gatsby-remark-shiki-twoslash",
                         options: { theme: "vitesse-dark" },
+                    },
+                    {
+                        resolve: "gatsby-remark-images",
+                        options: {
+                            maxWidth: 1200,
+                        },
                     },
                 ],
             },
