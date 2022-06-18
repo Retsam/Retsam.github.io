@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-index-tsx",
-    "path": "/",
-    "result": {"data":{"allMdx":{"nodes":[{"id":"a75e61b6-0593-5424-bdc9-ab7de2730e4d","slug":"test-post","frontmatter":{"title":"Test Post","date":"2020-10-20T00:00:00.000Z"}}]}},"pageContext":{}},
-    "staticQueryHashes": []}
+{"componentChunkName":"component---src-pages-index-tsx","path":"/","result":{"data":{"allMdx":{"nodes":[{"id":"bdb0c516-976e-5ce9-9174-303fb20badd6","slug":"is-set-theory-backwards","frontmatter":{"title":"Is Typescript's Set Theory Backwards?","date":"2022-06-17T00:00:00.000Z"}},{"id":"a75e61b6-0593-5424-bdc9-ab7de2730e4d","slug":"test-post","frontmatter":{"title":"Test Post","date":"2020-10-20T00:00:00.000Z"}}]}},"pageContext":{}},"staticQueryHashes":[]}
