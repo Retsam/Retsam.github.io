@@ -27,6 +27,9 @@ module.exports = {
                             maxWidth: 1200,
                         },
                     },
+                    {
+                        resolve: "gatsby-remark-footnotes",
+                    },
                 ],
             },
         },
