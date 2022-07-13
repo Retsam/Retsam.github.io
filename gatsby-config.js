@@ -28,7 +28,7 @@ module.exports = {
                         },
                     },
                     {
-                        resolve: "gatsby-remark-footnotes",
+                        resolve: "gatsby-remark-numbered-footnotes",
                     },
                 ],
             },
